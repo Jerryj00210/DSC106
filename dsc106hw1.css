@@ -1,0 +1,123 @@
+h1, h3 {
+    font-family: "Paytone one", sans-serif !important;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+    width: 40%;
+    height: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+span {
+    color: green;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+}
+
+#grid-text {
+    font-size: 20px;
+}
+
+#grid-number-1 {
+    font-size: 25px;
+    color: blue;
+}
+
+#grid-number-2 {
+    font-size: 25px;
+    color: blue;
+}
+
+#grid-number-3 {
+    font-size: 25px;
+    color: blue;
+}
+
+#grid-img-1 {
+    width: 50%;
+    height: 50%;
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+  
+.flex-container > div {
+    width: 100px;
+    text-align: center;
+}
+
+#flex-chart-1 {
+    flex-grow: 1;
+}
+
+#flex-chart-2 {
+    flex-grow: 1;
+}
+
+#flex-chart-3 {
+    flex-grow: 1.2;
+}
+
+figcaption {
+    font-size: 15px;
+}
+
+.pie {
+    width: 100%;
+    height: 100%;
+}
+
+.bar {
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    position: relative; top: 70px;
+}
+
+#firstcol {
+    background-color: lightgray;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+th {
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+fieldset {
+    border: 0;
+}
+
